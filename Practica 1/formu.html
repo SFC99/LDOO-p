@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>CIA.jeje</title>
+	</head>
+	<body>
+	
+		<h1> <center><img src="tel.png" width="200 pixels"/>CIA<img src="callcenter.png" width="200 pixels"/></center> </h1> 
+		<p><center>Llene el formulario para registrar su reporte</center></p><hr/>
+		<p><center>Este sitio fue creado para evitar a operadores telefonicos y asi reducir la cantidad de llamadas posibles,
+					gracias a la información del usuario se enviará un correo con el ticket de la problematica que se tenga y 
+					se atenderá según la disponibilidad del área (tabla 1.1).</center></p><hr/>
+		<form 
+			action="http:///LoginServlet"
+			method="POST">
+			Nombre:
+			<input type="text"><br/><br/>
+			
+			Email:
+			<input type="email"><br/><br/>
+			
+			Sucursal:
+			<select>
+				<option value="homm">
+				San Jeronimo
+				<option value="fut">
+				Los Angeles
+				<option value="Ddos">
+				Juarez
+				<option value="Simp">
+				Mazatlan
+				
+				</select><br/><br/>
+				Urgencia:
+				<select>
+				
+				<option value="alta">
+				1.Alta
+				<option value="mod">
+				2.Moderada
+				<option value="baj">
+				3.Baja
+			
+				
+				</select><br/><br/>
+			
+				Cita:
+				<input type="date"><br/><br/>
+				
+			
+				Describa el problema:<br/>
+				<textarea rows="10" cols="50">
+				</textarea><br/><br/>
+				
+					<input type="reset">
+					<input type="submit"><br/><br/>
+				
+			</form>
+				Horarios de respuesta según el área
+				<table border=2>
+					<tr>
+						<th>Área</th>
+						<th>Días</th>
+						<th>Horarios</th>
+						<th>Respuesta</th>
+						<th>Resuelve</th>
+					</tr>
+					<tr>
+						<td>Servicios Generales</td>
+						<td>Lunes a Viernes</td>
+						<td>8:00 am a 1:00 pm</td>
+						<td>De inmediato</td>
+						<td>Goteras, plafones dañados, mantenimiento, inmobiliario</td>
+						
+					</tr>
+					<tr>
+						<td>Soporte Tecnico</td>
+						<td>Lunes a Viernes</td>
+						<td>8:00 am a 5:00 pm</td>
+						<td>30 minutos</td>
+						<td>Cableado, instalacion de equipos, configuraciones</td>
+					</tr>
+					<tr>
+						<td>Telecomunicaciones</td>
+						<td>Lunes a Viernes</td>
+						<td>9:00 am a 1:00 pm</td>
+						<td>2 horas</td>
+						<td>Telefonía e Internet</td>
+					</tr>
+					<tr>	
+						<td>Control de acceso</td>
+						<td>Lunes a Viernes</td>
+						<td>9:00 am a 1:00 pm</td>
+						<td>De inmediato</td>
+						<td>Desbloqueo de usuarios, asignacion de usuarios, renovacion de contraseñas</td>
+					</tr>
+					<tr>	
+						<td>Seguridad Perimetral</td>
+						<td>Lunes a Viernes</td>
+						<td>9:00 am a 1:00 pm</td>
+						<td>20 min</td>
+						<td>Acceso a paginas web, contactos de outlook</td>
+						
+					</tr><br/>
+				</table>
+					Tabla 1.1	Horarios de respuesta según el área
+				
+				
+				
+					<p><center>¿Quieres ser parte de nuestro equipo?¡Te dejamos una explicacion de los operadores bilingües!</center></p><br/>
+					<video width="400" controls>
+						<source src="mov_bbb.mp4" type="video/mp4">
+						<source src="mov_bbb.ogg" type="video/ogg">
+					</video>
+					<p><a href="https://www.youtube.com/watch?v=WD_qUfJJF_w" target="_blank"></a>.
+</p>
+	</body>
+</html>
